@@ -44,3 +44,42 @@ body{
   top: 10px;
   
 }
+
+
+.main {
+  position: relative;
+
+  content: center;
+  height: 100px;
+  width: 99%;
+}
+
+.clock {
+  position: relative;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+  height: 50px;
+  width: 60%;
+  background: #3042FF;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  display: flex;
+  box-shadow: 5px 5px 10px #fff;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px ;
+}
+.hours,.minutes,.seconds,.dot1,.dot2{
+  position: relative;
+  top: 10px;
+  margin-left: 19px;
+  font-size: 30px;
+  
+}
+.hours span,.minutes span,.seconds span,.dot1 span,.dot2 span{
+  background-image: linear-gradient(#DF3400,#DF7A00);
+  color: transparent;
+  background-clip: text;
+  
+}
