@@ -8,21 +8,3 @@ function getcolor(){
 
 document.getElementById('cbox').addEventListener('random' , getcolor)
 getcolor()
-
-
-setInterval(getcolor,1000);
-
-
-function clock()
-{
-
-  let d = new Date();
-  document.getElementById("h").innerHTML = d.getHours();
-  document.getElementById("m").innerHTML = d.getMinutes();
-  document.getElementById("s").innerHTML = d.getSeconds();
-  
-  
-  
-  
-}
-setInterval(clock,1000);
