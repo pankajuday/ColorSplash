@@ -13,19 +13,10 @@ getcolor()
 
 setInterval(getcolor,1000);
 
-/*for (let i = 0; i < 5; i++) {
-  text += "The number is " + i + "<br>";
-};*/
 
 function clock()
 {
-  /*
-  let hours = document.getElementsByClassName("hours");
-  let minutes = document.getElementsByClassName("minutes");
-  let seconds = document.getElementsByClassName("seconds");
-  
-  */
-  
+
   let d = new Date();
   document.getElementById("h").innerHTML = d.getHours();
   document.getElementById("m").innerHTML = d.getMinutes();
