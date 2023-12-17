@@ -8,16 +8,37 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body> 
+<body>
+  <div class="main">
+      <div class="clock">
+        <div class="hours">
+          <span id="h">00</span>
+          
+        </div>
+        <div class="dot1">
+          <span>:</span>
+        </div>
+        <div class="minutes">
+          <span id="m">00</span>
+        </div>
+        <div class="dot2">
+          <span>:</span>
+        </div>
+        <div class="seconds">
+          <span id="s">00</span>
+        </div>
+  
+      </div>
+  </div>
 
   <div class="box">
     <div id="tbox"></div> <!-- End of tbox-->
     <div id="cbox" onclick="getcolor()">Click Here</div><!-- End of cbox-->
-    
+
   </div><!-- End of box-->
-  
-<div id="dom"></div>
-<script src="main.js"></script>
+
+  <div id="dom"></div>
+  <script src="main.js"></script>
 </body>
 
 </html>
