@@ -8,9 +8,3 @@ function getcolor(){
 
 document.getElementById('cbox').addEventListener('random' , getcolor)
 getcolor()
-let sec = Date.getSeconds()
-console.log(sec)
-
-/*for (let i = 0; i < 5; i++) {
-  text += "The number is " + i + "<br>";
-};*/
