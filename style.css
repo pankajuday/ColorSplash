@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+
+  
+}
+.box{
+  height: 100px;
+  width: 300px;
+  background-color: white;
+  margin: 50px auto;
+  position: relative;
+  top: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px #000000;
+}
+#cbox{
+  height: 30px;
+  width: 200px;
+  background-color: red;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  text-align: center;
+  font-family: serif;
+  font-size: 25px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 0px 0px 0px;
+}
+#tbox
+{
+ /* height: 40px;
+  width: 200px;
+  position: absolute;
+  top: 10px;
+  left: 50px;*/
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+  position: relative;
+  top: 10px;
+  
+}
